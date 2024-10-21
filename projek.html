@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projek.css">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: auto ;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        z-index: 1;
+      }
+  
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="projek">
+        <!-- navbar -->
+        <nav>
+            <div class="logo">HADZAHRA</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="saya.html">About Me</a></li>
+                <li><a href="pengalaman.html">Experience</a></li>
+                <li><a href="projek.html" class="aktif">Gallery</a></li>
+                <li><a href="kontak.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- isi projek-->
+        <div class="content">
+<div class="title">
+<h1>📸 My Photography Works 📸</h1>
+</div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/IMG_0948.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/DSC_0446.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/WINAYA.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/1.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/2.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/3.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/4.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/5.jpg" />
+              </div>
+            </div> 
+            <div class="button-nieh">
+              <button> <span>Love</span></button>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+          
+
+        </div>
+        <footer>
+            Crafted with ♥ by winaya.
+        </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+</body>
+
+</html>
