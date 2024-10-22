@@ -133,6 +133,14 @@ button {
         nav {
       display: none;
     }
+
+    .title{
+        font-size: 12px;
+    }
+
+    .button-nieh {
+        bottom: 20px;
+    }
         
         .content{
             height: 100%;
