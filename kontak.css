@@ -1,158 +1,161 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 nav ul {
-    display: flex;
-    list-style: none;
-    gap: 50px;
+  display: flex;
+  list-style: none;
+  gap: 50px;
 }
 
 nav {
-    font-family: "Poppins", system-ui;
-    font-size: 16px;
-    display: flex;
-    background-color: rgb(205, 228, 255);
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 58px;
+  font-family: "Poppins", system-ui;
+  font-size: 16px;
+  display: flex;
+  background-color: rgb(205, 228, 255);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 58px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav ul li a.aktif {
-    border-bottom: 2px solid #000;
-    color: #000;
+  border-bottom: 2px solid #000;
+  color: #000;
 }
 
 .logo {
-    font-family: "Poppins", system-ui;
-    font-weight: 600;
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
 }
-
 
 .content {
-    height: calc(100vh - 116px);   
-    display: flex;
-    justify-content: start;
-    padding-left: 50px;
-    align-items: center;
+  height: calc(100vh - 116px);
+  display: flex;
+  justify-content: start;
+  padding-left: 50px;
+  align-items: center;
 }
 
-
-
 h1 {
-    text-align: start;
-    font-size: 90px;
-    color: #333;
-    margin-bottom: 10px;
-    font-family: "Poppins", system-ui;
-    margin-top: 50px;
+  text-align: start;
+  font-size: 90px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Poppins", system-ui;
+  margin-top: 50px;
 }
 
 p {
-    font-size: 30px;
-    color: #666;
-    font-family: "Poppins", system-ui;
+  font-size: 30px;
+  color: #666;
+  font-family: "Poppins", system-ui;
 }
 
 .social-card {
-    height: fit-content;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    background: rgb(255, 255, 255);
-    padding: 20px 25px;
-    border-radius: 14px;
-    margin-top: 40px;
-  }
-  .Btn {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-  
-  .svgContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(0px);
-    letter-spacing: 0.8px;
-    border-radius: 10px;
-    transition: all 0.3s;
-    border: 1px solid rgba(156, 156, 156, 0.466);
-    z-index: 2;
-  }
-  
-  .BG {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #181818;
-    z-index: 1;
-    border-radius: 10px;
-    pointer-events: none;
-    transition: all 0.3s;
-    font-size: 0px;
-  }
-  .github .BG {
-    background: #181818;
-  }
-  .linkdin .BG {
-    background: #0077b5;
-  }
-  .whatsapp .BG {
-    background: #F55376;
-  }
-  .discord .BG {
-    background: #fd9797;
-  }
-  .Btn:hover .BG {
-    transform: scale(1.5);
-    /* transform-origin: bottom; */
-    font-size: 20px;
-    color: white;
-  }
-  
-  .Btn:hover .svgContainer {
-    border: 1px solid rgba(216, 216, 216, 0.466);
-    background-color: rgba(209, 209, 209, 0.466);
-    backdrop-filter: blur(4px);
-  }
-  
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: rgb(255, 255, 255);
+  padding: 20px 25px;
+  border-radius: 14px;
+  margin-top: 40px;
+}
+.Btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  z-index: 2;
+}
+
+.BG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  z-index: 1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all 0.3s;
+  font-size: 0px;
+}
+.github .BG {
+  background: #181818;
+}
+.linkdin .BG {
+  background: #0077b5;
+}
+.whatsapp .BG {
+  background: #f55376;
+}
+.discord .BG {
+  background: #fd9797;
+}
+.Btn:hover .BG {
+  transform: scale(1.5);
+  /* transform-origin: bottom; */
+  font-size: 20px;
+  color: white;
+}
+
+.Btn:hover .svgContainer {
+  border: 1px solid rgba(216, 216, 216, 0.466);
+  background-color: rgba(209, 209, 209, 0.466);
+  backdrop-filter: blur(4px);
+}
 
 .image-section img {
-    width: 300px;
-    position: absolute;
-    right: 0px;
-    bottom: 100px;
+  width: 300px;
+  position: absolute;
+  right: 0px;
+  bottom: 100px;
 }
 
 footer {
-    font-family: "Poppins", system-ui;
-    text-align: center;
-    background-color: rgb(205, 228, 255);
-    padding: 20px 0px;
-    height: 58px;
+  font-family: "Poppins", system-ui;
+  text-align: center;
+  background-color: rgb(205, 228, 255);
+  padding: 20px 0px;
+  height: 58px;
+}
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }

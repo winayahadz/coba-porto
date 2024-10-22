@@ -113,4 +113,81 @@ footer {
     background-color: rgb(205, 228, 255);
     padding: 20px 0px;
     height: 58px;
+    width: 100%;
+}
+
+
+/* untuk tablet */
+@media (max-width: 1440px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* untuk mobile */
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 100vh;
+        gap: 0px;
+    }
+
+    .content .about_kiri {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .content .about_kiri #winaya {
+        width: 200px;
+    }
+
+    .content .about_kanan {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        margin-top: 10px;
+    }
+
+    .content .about_kanan .kartu {
+        width: 95%;
+    }
+
+    .content .about_kanan .kartu h1 {
+        font-size: 30px;
+    }
+
+    .content .about_kanan .kartu table{
+        font-size: 12px;
+    }
+
+    .content .about_kanan table .row {
+        padding-right: 10px;
+    }
+
+    .content .bunga {
+        width: 60px;
+        position: absolute;
+        bottom: -20px;
+        right: 0px;
+    }
 }
