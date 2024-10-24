@@ -118,7 +118,7 @@ footer {
 
 
 /* untuk tablet */
-@media (max-width: 1440px) {
+@media (max-width: 1240px) {
     .content {
         display: flex;
         flex-direction: column;

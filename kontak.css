@@ -94,6 +94,7 @@ p {
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
   letter-spacing: 0.8px;
   border-radius: 10px;
@@ -135,6 +136,7 @@ p {
 .Btn:hover .svgContainer {
   border: 1px solid rgba(216, 216, 216, 0.466);
   background-color: rgba(209, 209, 209, 0.466);
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 
