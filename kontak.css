@@ -72,6 +72,7 @@ p {
   border-radius: 14px;
   margin-top: 40px;
 }
+
 .Btn {
   width: 50px;
   height: 50px;
@@ -150,6 +151,11 @@ footer {
   background-color: rgb(205, 228, 255);
   padding: 20px 0px;
   height: 58px;
+  width: 100%;
+}
+
+.image-mobile {
+  display: none;
 }
 
 @media (max-width: 1440px) {
@@ -157,5 +163,87 @@ footer {
 @media (max-width: 768px) {
   nav {
     display: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Poppins", system-ui;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 20px;
+    color: #666;
+    font-family: "Poppins", system-ui;
+  }
+
+  .social-card {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgb(255, 255, 255);
+    padding: 20px 0px;
+    border-radius: 14px;
+    margin-top: 40px;
+  }
+
+  .Btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .content {
+    padding-left: 0px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .text-section {
+    order: 1;
+  }
+
+  .image-section {
+    display: none;
+    order: 0;
+  }
+
+  .image-mobile {
+    display: block;
+    right: 0;
+    top: -5rem;
+    position: absolute;
+    order: 0;
+  }
+
+  .image-mobile img {
+    width: 220px;
+  }
+
+
+
+  .kontak {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
   }
 }

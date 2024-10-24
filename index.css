@@ -108,24 +108,26 @@ footer {
 
 /* untuk mobile */
 @media (max-width: 768px) {
-    
-    .content .bluberi {
-        width: 100px;
-        right: 10px;
+  nav {
+    display: none;
+  }
+  .content .bluberi {
+    width: 100px;
+    right: 10px;
     bottom: 20rem;
-    }
-        .content .stroberi {
-            width: 100px;
-            left: 10px;
+  }
+  .content .stroberi {
+    width: 100px;
+    left: 10px;
     top: 20rem;
-        }
+  }
 
-    .content .winaya h1 {
-        font-size: 30px;
-    }
+  .content .winaya h1 {
+    font-size: 30px;
+  }
 
-    .content .quotes {
-        font-size: 15px;
-        width: 80%;
-    }
+  .content .quotes {
+    font-size: 15px;
+    width: 80%;
+  }
 }
